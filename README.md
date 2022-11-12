@@ -1,6 +1,6 @@
-#Hi, this is my new app.
+# Hi, this is my new app.
 
-##Made with ReactJS, ReactRouter And Helmet.
+## Made with ReactJS, ReactRouter And Helmet.
 
 <!-- # Getting Started with Create React App
 
