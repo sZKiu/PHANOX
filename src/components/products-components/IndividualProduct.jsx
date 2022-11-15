@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import images from "../../assets/jsonimg/jsonimg";
 import { useLocation } from "react-router-dom";
 import Nav from "../generic-componets/Nav";
@@ -36,9 +36,9 @@ function IndividualProduct() {
       <Nav />
 
       <div className="individual-product-principal">
-        <IndividualProductImgs />
+        <IndividualProductImgs/>
 
-        <IndividualProductDes amount={amount} />
+        <IndividualProductDes amount={amount}/>
       </div>
 
       <div className="individual-product-secondary">

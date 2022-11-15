@@ -28,14 +28,30 @@ import rockerz333_2 from "../img/earphones_c_2.webp";
 import rockerz333_3 from "../img/earphones_c_3.webp";
 import rockerz333_4 from "../img/earphones_c_4.webp";
 
-
 let array = [
   {
     id: 1,
     url: speaker1,
     title: "boAt-Party-Pal-50",
     amount: 56,
-    relatives: [speaker1 ,speaker2, speaker3, speaker4]
+    relatives: [
+      {
+        img: speaker1,
+        id: 1,
+      },
+      {
+        img: speaker2,
+        id: 2,
+      },
+      {
+        img: speaker3,
+        id: 3,
+      },
+      {
+        img: speaker4,
+        id: 4,
+      },
+    ],
   },
   {
     id: 2,
@@ -48,42 +64,144 @@ let array = [
     url: immortal1000D,
     title: "boAt-Immortal-1000D",
     amount: 50,
-    relatives: [immortal1000D, immortal1000D2, immortal1000D3, immortal1000D4]
+    relatives: [
+      {
+        img: immortal1000D,
+        id: 1,
+      },
+      {
+        img: immortal1000D2,
+        id: 2,
+      },
+      {
+        img: immortal1000D3,
+        id: 3,
+      },
+      {
+        img: immortal1000D4,
+        id: 4,
+      },
+    ],
   },
   {
     id: 4,
     url: bassheads242,
     title: "boAt-BassHeads-242",
     amount: 34,
-    relatives: [bassheads242, bassheads242_2, bassheads242_3, bassheads242_4]
+    relatives: [
+      {
+        img: bassheads242,
+        id: 1,
+      },
+      {
+        img: bassheads242_2,
+        id: 2,
+      },
+      {
+        img: bassheads242_3,
+        id: 3,
+      },
+      {
+        img: bassheads242_4,
+        id: 4,
+      },
+    ],
   },
   {
     id: 5,
     url: watchblaze1,
     title: "Watch-Blaze",
     amount: 49,
-    relatives: [watchblaze1, watchblaze2, watchblaze3, watchblaze4]
+    relatives: [
+      {
+        img: watchblaze1,
+        id: 1,
+      },
+      {
+        img: watchblaze2,
+        id: 2,
+      },
+      {
+        img: watchblaze3,
+        id: 3,
+      },
+      {
+        img: watchblaze4,
+        id: 4,
+      },
+    ],
   },
   {
     id: 6,
     url: airdopes281pro,
     title: "BOAT-Airdopes-281-Pro",
     amount: 69,
-    relatives: [airdopes281pro, airdopes281pro2, airdopes281pro3, airdopes281pro4]
+    relatives: [
+      {
+        img: airdopes281pro,
+        id: 1,
+      },
+      {
+        img: airdopes281pro2,
+        id: 2,
+      },
+      {
+        img: airdopes281pro3,
+        id: 3,
+      },
+      {
+        img: airdopes281pro4,
+        id: 4,
+      },
+    ],
   },
   {
     id: 7,
     url: bassHeads900,
     title: "BOAT-BassHeads-900",
     amount: 49,
-    relatives: [bassHeads900, bassHeads9002, bassHeads9003, bassHeads9004]
+    relatives: [
+      {
+        img: bassHeads900,
+        id: 1
+      },
+      {
+        img: bassHeads9002,
+        id: 2
+      },
+      {
+        img: bassHeads9003,
+        id: 3
+      },
+      {
+        img: bassHeads9004,
+        id: 4
+      },
+    ],
   },
   {
     id: 8,
     url: rockerz333,
     title: "boAt-Rockerz-333",
     amount: 55,
-    relatives: [rockerz333, rockerz333_2, rockerz333_3, rockerz333_4]
+    relatives: [
+      {
+        img: rockerz333,
+        id: 1
+      },
+      {
+        img: rockerz333_2,
+        id: 2
+      },
+      {
+        img: rockerz333_3,
+        id: 3
+      },
+      {
+        img: rockerz333_4,
+        id: 4
+      },
+    ],
   },
 ];
 

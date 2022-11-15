@@ -15,15 +15,16 @@ function IndividualProductImgs() {
   useEffect(() => {
     let img;
     let id;
+
     images.forEach((imgEl, imgInd) => {
       if (imgEl.title === relativeImg) {
-        id = imgEl.url.split(".")[0].split("/")[4].split("_")[2];
+        id = 1;
       }
     });
 
     relativeImg instanceof Object
       ? restImgs.current.childNodes.forEach((el, ind) => {
-          if (el.id === relativeImg.id) {
+          if (Number.parseInt(el.id) == relativeImg.id) {
             el.classList.add("red");
           } else {
             el.classList.remove("red");
@@ -61,16 +62,16 @@ function IndividualProductImgs() {
                   <img
                     onClick={() => {
                       setRelativeImg({
-                        url: el,
+                        url: el.img,
                         title: imgEl.title,
-                        id: el.split(".")[0].split("/")[4].split("_")[2],
+                        id: el.id,
                       });
                     }}
-                    id={el.split(".")[0].split("/")[4].split("_")[2]}
+                    id={el.id}
                     className="individual-product-restImgs-img"
                     key={ind}
-                    src={el}
-                    alt={el.split(".")[0].split("/")[4]}
+                    src={el.img}
+                    alt={el.img.split(".")[0].split("/")[4]}
                   />
                 );
               });
