@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PHANOX/static/css/main.eb7cd9dc.css",
-    "main.js": "/PHANOX/static/js/main.84ac36b1.js",
+    "main.js": "/PHANOX/static/js/main.a85d878e.js",
     "static/media/watch_4.webp": "/PHANOX/static/media/watch_4.2dabe001c40bee953a72.webp",
     "static/media/speaker2.webp": "/PHANOX/static/media/speaker2.fa84f9ef9fd29622ca40.webp",
     "static/media/earphones_c_4.webp": "/PHANOX/static/media/earphones_c_4.58049bdbec3feb0ae353.webp",
@@ -33,10 +33,10 @@
     "static/media/earphones_b_4.webp": "/PHANOX/static/media/earphones_b_4.21dc93e3732b5c22f9db.webp",
     "index.html": "/PHANOX/index.html",
     "main.eb7cd9dc.css.map": "/PHANOX/static/css/main.eb7cd9dc.css.map",
-    "main.84ac36b1.js.map": "/PHANOX/static/js/main.84ac36b1.js.map"
+    "main.a85d878e.js.map": "/PHANOX/static/js/main.a85d878e.js.map"
   },
   "entrypoints": [
     "static/css/main.eb7cd9dc.css",
-    "static/js/main.84ac36b1.js"
+    "static/js/main.a85d878e.js"
   ]
 }
