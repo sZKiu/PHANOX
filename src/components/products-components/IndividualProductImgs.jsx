@@ -9,13 +9,18 @@ function IndividualProductImgs() {
     restImgs = useRef();
 
   useEffect(() => {
+    setRelativeImg(productTitle);
+  }, [productTitle]);
+
+  useEffect(() => {
     let img;
     let id;
     images.forEach((imgEl, imgInd) => {
       if (imgEl.title === relativeImg) {
-        id = imgEl.url.split(".")[0].split("/")[3];
+        id = imgEl.url.split(".")[0].split("/")[4].split("_")[2];
       }
     });
+
     relativeImg instanceof Object
       ? restImgs.current.childNodes.forEach((el, ind) => {
           if (el.id === relativeImg.id) {
@@ -27,10 +32,6 @@ function IndividualProductImgs() {
       : (img = document.getElementById(id));
     img ? img.classList.add("red") : console.log();
   }, [relativeImg]);
-
-  useEffect(() => {
-    setRelativeImg(productTitle);
-  }, [productTitle]);
 
   return (
     <div className="individual-product-imgs">
@@ -62,14 +63,14 @@ function IndividualProductImgs() {
                       setRelativeImg({
                         url: el,
                         title: imgEl.title,
-                        id: el.split(".")[0].split("/")[3],
+                        id: el.split(".")[0].split("/")[4].split("_")[2],
                       });
                     }}
-                    id={el.split(".")[0].split("/")[3]}
+                    id={el.split(".")[0].split("/")[4].split("_")[2]}
                     className="individual-product-restImgs-img"
                     key={ind}
                     src={el}
-                    alt={el.split(".")[0].split("/")[3]}
+                    alt={el.split(".")[0].split("/")[4]}
                   />
                 );
               });
