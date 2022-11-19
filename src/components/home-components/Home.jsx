@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="home">
       <Helmet>
-        <title>Home || PHANOX</title>
+        <title>PHANOX</title>
       </Helmet>
       
       <Nav />
