@@ -1642,6 +1642,7 @@
   
   #obscure{
     position: fixed;
+    z-index: 50;
     top: 0;
     width: 58.8vw;
     height: 100vh;
@@ -1751,6 +1752,7 @@
   
   .modal-recentlyAdded{
     position: fixed;
+    z-index: 60;
     width: max-content;
     top: 0;
     left: 50%;
